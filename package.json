@@ -1,0 +1,20 @@
+{
+  "name": "cardgame-tutorial",
+  "version": "1.0.0",
+  "description": "A card game tutorial website",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass public/styles/main.scss public/styles/main.css",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cardgame",
+    "tutorial"
+  ],
+  "author": "Equipe 6",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "sass": "^1.80.4"
+  }
+}

@@ -1,0 +1,66 @@
+@use "sass:color";
+
+// Variables
+$primary-color: #333;
+$background-color: #f4f4f4;
+$accent-color: #007bff;
+
+// Global styles
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: $background-color;
+    color: $primary-color;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+// Tutorial page styles
+.tutorial-content {
+    margin-top: 20px;
+}
+
+.hints-navigation {
+    margin: 30px 0;
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        margin: 10px 0;
+    }
+    
+    a {
+        color: $accent-color;
+        text-decoration: none;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+// Hint page styles
+.hint-content {
+    margin: 20px 0;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: $accent-color;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    &:hover {
+        background-color: color.adjust($accent-color, $lightness: 10%);
+    }
+}
