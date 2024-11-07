@@ -1,20 +1,23 @@
 {
-  "name": "cardgame-tutorial",
-  "version": "1.0.0",
-  "description": "A card game tutorial website",
-  "main": "index.js",
-  "scripts": {
-    "build": "sass public/styles/main.scss public/styles/main.css",
-    "start": "node server.js"
-  },
-  "keywords": [
-    "cardgame",
-    "tutorial"
-  ],
-  "author": "Equipe 6",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.1",
-    "sass": "^1.80.4"
+    "name": "cardgame-tutorial",
+    "version": "1.0.0",
+    "description": "Um jogo de cartas cooperativo sobre a situacao vigente do seu dia a dia",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "build": "sass public/styles/main.scss:public/styles/main.css --style compressed",
+      "watch": "sass --watch public/styles/main.scss:public/styles/main.css"
+    },
+    "keywords": [
+      "cardgame",
+      "tutorial"
+    ],
+    "author": "Equipe 6",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.21.1"
+    },
+    "devDependencies": {
+      "sass": "^1.69.5"
+    }
   }
-}

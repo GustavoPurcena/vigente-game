@@ -4,25 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Game Tutorial</title>
-    <link rel="stylesheet" href="../public/styles/main.css">
+    <title>Vigente Card Game</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
-    <main>
-        <h1>Welcome to the Card Game Tutorial</h1>
-        <div class="tutorial-content">
-            <p>Learn how to play our card game with this interactive tutorial.</p>
-
-            <nav class="hints-navigation">
-                <h2>Available Hints:</h2>
-                <ul>
-                    <li><a href="/hint1">Basic Rules</a></li>
-                    <li><a href="/hint2">Card Types</a></li>
-                </ul>
-            </nav>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Bem vindo ao Vigente</h1>
+            <p class="hero-subtitle">Um jogo de cartas cooperativo sobre a situação vigente do seu dia a dia</p>
         </div>
+    </header>
+
+    <main>
+        <section class="tutorial-section">
+            <h2>Como Jogar?</h2>
+            <div class="tutorial-image">
+                <!-- Replace with your actual tutorial image -->
+                <img src="/assets/tutorial-placeholder.svg" alt="Game Tutorial" class="responsive-image">
+            </div>
+            <div class="tutorial-navigation">
+                <button class="nav-button prev">
+                    <i class="fas fa-chevron-left"></i> Previous
+                </button>
+                <button class="nav-button next">
+                    Next <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <section class="cards-section">
+            <h2>Faça o download do jogo!</h2>
+            <div class="cards-grid">
+                <div class="card-item">
+                    <h3>Baixe as cartas</h3>
+                    <a href="#" class="download-button">Aqui</a>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2024 Vigente Card Game. All rights reserved.</p>
+    </footer>
+
     <script src="/scripts/main.js"></script>
 </body>
 
