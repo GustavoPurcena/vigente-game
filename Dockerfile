@@ -11,9 +11,6 @@ RUN npm install
 # Copy project files
 COPY . .
 
-# Build SCSS
-RUN npm run build
-
 EXPOSE 3000
 
 CMD [ "npm", "start" ]
