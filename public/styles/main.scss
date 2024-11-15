@@ -29,7 +29,7 @@ main {
 .hero {
     background-color: $hero-bg-color;
     color: $hero-text-color;
-    padding: 6rem 2rem;
+    padding: 2rem 1.5rem;
     text-align: center;
     
     .hero-content {
@@ -68,31 +68,6 @@ main {
             height: auto;
             border-radius: $border-radius;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-        }
-    }
-}
-
-.tutorial-navigation {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 2rem;
-    
-    .nav-button {
-        padding: 0.75rem 1.5rem;
-        border: none;
-        background-color: $accent-color;
-        color: white;
-        border-radius: $border-radius;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        transition: all 0.3s ease;
-        
-        &:hover {
-            background-color: color.adjust($accent-color, $lightness: 10%);
-            transform: translateY(-2px);
         }
     }
 }
