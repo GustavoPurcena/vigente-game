@@ -138,6 +138,7 @@ main {
 .card-image-container {
     margin: 2rem auto;
     max-width: 600px;
+    text-align: center;
 }
 
 .card-description {
