@@ -247,6 +247,14 @@ footer p {
         max-width: 200px;
         justify-content: center;
     }
+    
+    .card-image-container {
+        transform: scale(0.75);
+        display: block;
+        height: auto;
+        margin-left: 16rem;
+        direction: rtl;
+    }
 }
 
 @media (max-width: 480px) {
